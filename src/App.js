@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, Component } from "react";
+import ReactDOM from "react-dom";
 import "./App.css";
 import Card from "./components/Card";
 import ThemeSwitcher from "./components/ThemeSwitcher";

@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 const Footer = (props) => {
   return (
     <footer className="card--footer" style={{ background: props.background }}>

@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 const Body = () => {
   return (
     <div className="card--body">
