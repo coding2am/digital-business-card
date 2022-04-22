@@ -1,0 +1,18 @@
+export default {
+  switcherOn: "#297FE5",
+  switcherOff: "#fff",
+  blackFont: "#000",
+  whiteFont: "#fff",
+  darkCard: "#1A1B21",
+  lightCard: "#F5F5F5",
+  darkBoxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+  lightBoxShadow: "rgba(255, 255, 255, 0.24) 0px 3px 8px",
+  darkThemeBg1: "#0f0c29",
+  darkThemeBg2: "-webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29)",
+  darkThemeBg3: "linear-gradient(to right, #24243e, #302b63, #0f0c29)",
+  lightThemeBg1: "#C9FFBF",
+  lightThemeBg2: "-webkit-linear-gradient(to right, #FFAFBD, #C9FFBF)",
+  lightThemeBg3: "linear-gradient(to right, #FFAFBD, #C9FFBF)",
+  darkFooterBg: "#161619",
+  lightFooterBg: "#D5D4D8",
+};

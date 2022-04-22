@@ -1,0 +1,226 @@
+:root {
+  --dark-card-theme:#1A1B21;
+  --light-card-theme:#F5F5F5;
+  /* 
+    *** light bg theme ***
+    background: #C9FFBF;  
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF); 
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  */
+
+  /* 
+    *** dark bg theme ***
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+    background: #0f0c29;  
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+  */
+}
+@font-face {
+  font-family: appFont;
+  src: url("./fonts/inter.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: appFont;
+  font-size: 1rem;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+  .card {
+    width: 35%!important;
+  }
+  .avater {
+    height: 300px!important;
+  }
+  .themeSwitcher {
+    width: 18vw!important;
+  }
+  .name, .job, .link {
+    margin: 1.2rem 0;
+  }
+  .name {
+    font-size: 1.5rem!important;
+  }
+  .job {
+    font-size: 1.2rem!important;
+  }
+  .link a{
+    font-size: 1rem!important;
+  }
+  .btn--group {
+   margin: 1rem 0;
+  }
+  .btn--group > a > button {
+    padding: 0.3rem 1rem;
+    font-size: 1.2rem!important;
+  }
+  .btn--group > a > button > i {
+    font-size: 1.2rem!important;
+  }
+  .about {
+    margin: 1.5rem 0!important;
+  }
+  .interests h3, .about > h3 {
+    font-size: 1.5rem!important;
+  }
+  .about > p , .interests > p {
+    font-size: 1rem!important;
+  }
+  .card--footer > a > i {
+    font-size: 1.5rem!important;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+  .card {
+    width: 50%!important;
+  }
+  .avater {
+    height: 400px!important;
+  }
+  .themeSwitcher {
+    width: 18vw!important;
+  }
+  .name, .job, .link {
+    margin: 1.2rem 0;
+  }
+  .name {
+    font-size: 1.5rem!important;
+  }
+  .job {
+    font-size: 1.2rem!important;
+  }
+  .link a{
+    font-size: 1rem!important;
+  }
+  .btn--group {
+   margin: 1rem 0;
+  }
+  .btn--group > a > button {
+    padding: 0.3rem 1rem;
+    font-size: 1.2rem!important;
+  }
+  .btn--group > a > button > i {
+    font-size: 1.2rem!important;
+  }
+  .about {
+    margin: 1.5rem 0!important;
+  }
+  .interests h3, .about > h3 {
+    font-size: 1.5rem!important;
+  }
+  .about > p , .interests > p {
+    font-size: 1rem!important;
+  }
+  .card--footer > a > i {
+    font-size: 1.5rem!important;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 321px) and (max-width: 480px) {
+  /* CSS */
+  .card {
+    width: 85%!important;
+    margin: 15% 0!important;
+  }
+  .avater {
+    height: 300px!important;
+  }
+  .themeSwitcher {
+    width: 40vw!important;
+  }
+  .name, .job, .link {
+    margin: 1.2rem 0;
+  }
+  .name {
+    font-size: 1.5rem!important;
+  }
+  .job {
+    font-size: 1.2rem!important;
+  }
+  .link a{
+    font-size: 1rem!important;
+  }
+  .btn--group {
+   margin: 1rem 0;
+  }
+  .btn--group > a > button {
+    padding: 0.3rem 1rem;
+    font-size: 1.2rem!important;
+  }
+  .btn--group > a > button > i {
+    font-size: 1.2rem!important;
+  }
+  .about {
+    margin: 1.5rem 0!important;
+  }
+  .interests h3, .about > h3 {
+    font-size: 1.5rem!important;
+  }
+  .about > p , .interests > p {
+    font-size: 1rem!important;
+  }
+  .card--footer > a > i {
+    font-size: 1.5rem!important;
+  }
+}
+@media (min-width: 220px) and (max-width: 320px) {
+  /* CSS */
+}
